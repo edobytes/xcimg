@@ -8,22 +8,22 @@
 ```
 .         
 ├── annotations                     
-|   └── one-label
-|       └── ...       
+│   └── one-label
+│       └── ...       
 ├── images           
-|   └── ...     
+│   └── ...     
 ├── masks          
-|   └── ...         
+│   └── ...         
 ├── pairs
 │   └── ...
 ├── sets                        
-|   ├── train
-    │   └── ...                            
-|   └── train-voc              
-|       ├── JPEGImages           
-|       ├── SegmentationClass        
-|       ├── SegmentationClassPNG                  
-|       └── SegmentationClassVisualization        
+│   ├── train
+│   │   └── ...                            
+│   └── train-voc              
+│       ├── JPEGImages           
+│       ├── SegmentationClass        
+│       ├── SegmentationClassPNG                  
+│       └── SegmentationClassVisualization        
 ├── 2voc.py           
 ├── config.py         
 ├── images.py       
