@@ -80,7 +80,7 @@ Two options are provided.
 python masks.py
 ```
 
-This will generate black & white masks and save these in `./masks`, as well as genarating juxtaposed images of the original and the mask (saved in `./pairs`)
+This will generate black & white masks and save these in `./masks`, as well as generating juxtaposed images of the original and the mask (saved in `./pairs`)
 
 Again, for convenience, the aforementioned directories contain the generated masks & pairs resulting from having used the 100 images in `./images`
 
@@ -88,7 +88,7 @@ Again, for convenience, the aforementioned directories contain the generated mas
 
 ### Convert to VOC format
 
-Given the popularity of the format/task, it is possible to obtain the masks with the structure need by VOC related models.
+Given the popularity of the format/task, it is possible to obtain the masks with the structure needed by VOC related models.
 
 Copy the contents of `./annotations` and `./images` to `sets/train`, and create a `sets/labels.txt` file, with the following content:
 
